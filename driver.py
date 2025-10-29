@@ -7,6 +7,3 @@ class Driver:
 
     def __str__(self):
         return f"{self.name}, {self.car_model}, {self.available},{self.completed_rides}"
-
-driver1 = Driver("Nothando", "Ford")
-print(driver1)

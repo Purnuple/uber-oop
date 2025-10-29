@@ -42,3 +42,4 @@ class TestUber(unittest.TestCase):
         # multiple ratings
         self.rider.rate_driver(ride.driver, 4)
         self.assertAlmostEqual(ride.driver.average_rating, 4.5)
+        

@@ -26,11 +26,4 @@ class Ride:
 
 
 
-ride1 = Ride("Nothando","Fred",5)
-ride1.start_ride()
-print(ride1)
-ride1.complete_ride()
-print(ride1)
-
-
 

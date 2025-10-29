@@ -7,6 +7,6 @@ class TestRider(unittest.TestCase):
         self.assertEqual(r.name, "Alice")
         self.assertEqual(r.ride_history, [])
 
-    def test_rider_str(self):
+    def test_rider_str(self):   
         r = Rider("Alice")
         self.assertIn("Alice", str(r))

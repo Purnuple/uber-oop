@@ -6,4 +6,4 @@ class Rider:
     def __str__(self):
         return f"{self.name}"
 
-rider1 = Rider("Nothando")
+# rider1 = Rider("Nothando")

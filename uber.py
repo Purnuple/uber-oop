@@ -9,6 +9,7 @@ class Uber:
         self.available_drivers = []
         self.active_rides = []
         self.completed_rides = []
+        
 
     def add_driver(self, driver):
         self.available_drivers.append(driver)
@@ -26,7 +27,6 @@ class Uber:
         self.completed_rides.append(ride)
         self.active_rides.remove(ride)
         return ride
-
     
       
     def __str__(self):

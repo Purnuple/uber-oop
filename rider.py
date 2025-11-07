@@ -3,6 +3,9 @@ class Rider:
         self.name = name
         self.ride_history = []
 
+    def rate_driver(self,driver, rate):
+        driver.ratings.append(rate)
+    
     def __str__(self):
         return f"{self.name}"
 

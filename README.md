@@ -73,5 +73,5 @@ By the end of this project, you should be able to:
 All tests are written using **unittest**.
 
 To run them:
-```bash
+``bash
 python -m unittest tests/test_blah.py
